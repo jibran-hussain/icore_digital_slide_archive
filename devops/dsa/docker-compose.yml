@@ -96,7 +96,7 @@ services:
     # Uncomment to allow access to the database from outside of the docker
     # network.
     # ports:
-    #   - "27017"
+      - "27017:27017"
     logging:
       options:
         max-size: "10M"
